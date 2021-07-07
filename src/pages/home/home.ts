@@ -17,7 +17,7 @@ export class HomePage {
     this.menu.swipeEnable(true);
   }
   login() {
-    this.navCtrl.push("CategoriasPage");
+    // this.navCtrl.push("CategoriasPage");
     this.navCtrl.setRoot("CategoriasPage");
   }
 }
